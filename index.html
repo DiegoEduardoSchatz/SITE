@@ -21,8 +21,8 @@
     </header>
     <section id="sobre-mim">
         <h2>Sobre mim</h2>
-        <img src="https://raw.githubusercontent.com/DiegoEduardoSchatz/SITE/refs/heads/Index/alemao.jfif"
-            width="400" alt="IMAGEM NÃO ABRIU..." title="Foto de perfil DIEGO EDUARDO SCHATZ">
+        <img src="https://raw.githubusercontent.com/DiegoEduardoSchatz/SITE/refs/heads/Index/alemao.jfif" width="400"
+            alt="IMAGEM NÃO ABRIU..." title="Foto de perfil DIEGO EDUARDO SCHATZ">
         <article>
             <p>
                 Olá, meu nome é Diego e sou um desenvolvedor front-end.
@@ -154,7 +154,49 @@
 
             <input type="submit" value="Enviar">
         </form>
-        <p>&copy; 2026 Diego Schatz. Todos os direitos reservados.</p>
+
+        <form action="">
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">Email: </label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="idade">Idade: </label>
+            <input type="idade" id="idade" name="idade" required><br>
+
+            <label for="materia">Para qual matéria você está se candidatando?: </label>
+            <select id="materia" name="materia" required><br>
+                <option value="">Selecione uma matéria</option>
+                <option value="matematica">Matemática</option>
+                <option value="portugues">Português</option>
+                <option value="biologia">Biologia</option>
+                <option value="ciencia">Ciências</option>
+                <option value="historia">História</option>
+                <option value="geografia">Geografia</option>
+                <option value="artes">Artes</option>
+            </select><br>
+
+
+            <label for="escolaridade">Nível escolaridade: </label>
+            <textarea id="escolaridade" name="escolaridade" required cols="40" rows="3"></textarea><br><br>
+            <option value="ensino_superior_completo">Ensino Superior Completo</option>
+            <option value="cursando_mestrado">Cursando Mestrado</option>
+            <option value="mestrado_completo">Mestrado Completo</option>
+            <option value="cursando_doutorado">Cursando Doutorado</option>
+            <option value="doutorado_completo">Doutorado Completo</option>
+            </select><br>
+
+
+            <label for="mensagem">Mensagem: </label>
+            <textarea id="mensagem" name="mensagem" required cols="40" rows="3"></textarea><br><br>
+
+            <input type="checkbox" id="newsletter" name="newsletter">
+            <label for="newsletter">Desejo receber novidades por email?</label><br><br>
+
+
+
+            <p>&copy; 2026 Diego Schatz. Todos os direitos reservados.</p>
 </body>
 
 </html>
