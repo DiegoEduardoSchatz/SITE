@@ -41,3 +41,15 @@ p {
     padding: 20px;
     border-radius: 5px;
 }
+
+form #contato {
+    background-color: #f50202;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+form #escola {
+    background-color: #1404fd;
+    padding: 20px;
+    border-radius: 5px; 
+}
