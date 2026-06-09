@@ -10,10 +10,13 @@ p {
     font-size: 16px;
     line-height: 1.5;
     font-family: times new roman, serif;
+    background-color: #3bf30d;
+    padding: 20px;
+    border-radius: 5px;
 }
 
 #sobre-mim {
-    background-color: #34c228;
+    background-color: #3728c2;
     padding: 20px;
     border-radius: 5px;
 }
@@ -42,13 +45,7 @@ p {
     border-radius: 5px;
 }
 
-form #contato {
-    background-color: #f50202;
-    padding: 20px;
-    border-radius: 5px;
-}
-
-form #escola {
+#escola {
     background-color: #1404fd;
     padding: 20px;
     border-radius: 5px; 
