@@ -1,0 +1,37 @@
+* {
+    color: #0a0a0a;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #d13333;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: times new roman, serif;
+}
+
+#sobre-mim {
+    background-color: #34c228;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#Habilidades {
+    background-color: #3126c9;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#projetos {
+    background-color: #d0d0d0;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#contatos {
+    background-color: #f50202;
+    padding: 20px;
+    border-radius: 5px;
+}
