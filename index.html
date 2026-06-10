@@ -94,31 +94,18 @@
 
     <footer>
         <section id="projetos">
-                <img class="container_imagem1" src="https://raw.githubusercontent.com/DiegoEduardoSchatz/SITE/f0704c2762f03d435c8ad9816e73d6101123fbf4/desenvolvedor_web.png"
-                    width="350" alt="IMAGEM NÃO ABRIU..." title="Foto de DESENVOLVEDOR WEB">
-                <h2>Projetos</h2>
-                <ul>
-                    <li><a href="https://github.com/DiegoEduardoSchatz/SITE" target="_blank">SITE pessoal github</a></li>
-                    <li><a href="projeto2.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto3.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto4.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto5.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto6.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto7.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto8.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto9.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto10.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto11.html" target="_blank">Em Desenvolvimento</a></li>
-                    <li><a href="projeto12.html" target="_blank">Em Desenvolvimento</a></li>
-                </ul>
+            <img class="container_imagem1"
+                src="https://raw.githubusercontent.com/DiegoEduardoSchatz/SITE/f0704c2762f03d435c8ad9816e73d6101123fbf4/desenvolvedor_web.png"
+                width="150" alt="IMAGEM NÃO ABRIU..." title="Foto de DESENVOLVEDOR WEB">
+            <h2>Projetos</h2>
+            <ul>
+                <li><a href="https://github.com/DiegoEduardoSchatz/SITE" target="_blank">SITE github</a></li>
+            </ul>
         </section>
     </footer>
     <section id="contatos">
         <h2>Contatos</h2>
         <article>
-            <p>
-                Você pode me encontrar nas seguintes redes sociais:
-            </p>
             <ul>
                 <li><a href="https://www.linkedin.com/in/diego-eduardo-schatz/" target="_blank">LinkedIn</a></li>
                 <li><a href="https://github.com/DiegoEduardoSchatz" target="_blank">GitHub</a></li>
@@ -129,19 +116,18 @@
     <form id="contato" action="">
         <p>
             Você tem algum projeto em mente ou gostaria de colaborar? <br>
-            Entre em contato comigo preenchendo o formulário
-            abaixo: <br>
+            Entre em contato comigo preenchendo o formulário abaixo: <br>
         </p>
-        <label for="nome">Nome:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br>
 
-        <label for="email">Email:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
 
         <label for="tel">Telefone:</label>
         <input type="tel" id="tel" name="tel" required><br>
 
-        <label for="assunto">Assunto:&nbsp;</label>
+        <label for="assunto">Assunto:</label>
         <select id="assunto" name="assunto" required><br>
             <option value="">Selecione um assunto</option>
             <option value="projeto">Projeto</option>
@@ -160,28 +146,30 @@
 
     <br>
 
-    <form id="escola" action="">
+    <form id="linguagens" action="">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" required><br>
 
-        <label for="email">Email:&nbsp;</label>
+        <label for="email">Email:</label>
         <input type="email" id="email" name="email" required><br>
 
-        <label for="idade">Idade:&nbsp;</label>
+        <label for="idade">Idade:</label>
         <input type="number" id="idade" name="idade" required><br>
 
-        <label for="materia">Selecione uma matéria:</label>
+        <label for="materia">Qual a linguagem de programação você domina?</label>
         <select id="materia" name="materia" required><br>
-            <option value="">Selecione uma matéria</option>
-            <option value="matematica">Matemática</option>
-            <option value="portugues">Português</option>
-            <option value="biologia">Biologia</option>
-            <option value="ciencia">Ciências</option>
-            <option value="historia">História</option>
-            <option value="geografia">Geografia</option>
-            <option value="artes">Artes</option>
+            <option value="">Selecione uma linguagem</option>
+            <option value="python">Python</option>
+            <option value="javascript">JavaScript</option>
+            <option value="java">Java</option>
+            <option value="c++">C++</option>
+            <option value="php">PHP</option>
+            <option value="html">HTML</option>
+            <option value="css">CSS</option>
+            <option value="csharp">C#</option>
+            <option value="typescript">TypeScript</option>
+            <option value="outros">OUTROS</option>
         </select><br>
-
 
         <label for="escolaridade">Nível escolaridade:</label>
         <select id="escolaridade" name="escolaridade" required><br>
@@ -199,7 +187,7 @@
         <input type="submit" value="Enviar"><br>
     </form>
 
-    <p>&copy; 2026 Diego Schatz. Todos os direitos reservados.</p>
+    <p class="copyright">&copy; 2026 Diego Schatz. Todos os direitos reservados.</p>
 </body>
 
 </html>

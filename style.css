@@ -6,14 +6,14 @@
 }
 p {
     color: #020202;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 1.5;
     font-family: times new roman, serif;
     background-color: #3bf30d;
     padding: 20px;
     border: 5px solid #000;
     margin: 10px;
-    display: inline-block;
+    display: min-content;
 }
 
 #topo {
@@ -32,8 +32,8 @@ p {
     padding: 10px;
     border: 5px solid #000;
     margin: 10px;
-    display:block;
-    width: 500px;
+    display: inline-block;
+    width: min-content;
 }
 
 #sobre-mim {
@@ -42,7 +42,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: auto;
+    width: min-content;
 }
 
 #Habilidades {
@@ -50,8 +50,8 @@ p {
     padding: 10px;
     border: 5px solid #000;
     margin: 10px;
-    display: block;
-    width: 500px;
+    display: inline-block;
+    width: max-content;
 }
 
 #projetos {
@@ -60,7 +60,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: 550px;
+    width: 300px;
 }
 
 #contatos {
@@ -69,7 +69,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: auto;
+    width: min-content;
 }
 
 #contato {
@@ -79,17 +79,17 @@ p {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: min-content;
+    width: auto;
 }
 
-#escola {
+#linguagens {
     background-color: #1404fd;
     padding: 10px;
     border: 5px solid #000;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: min-content;
+    width: auto;
 }
 
 .container_imagem {
@@ -100,4 +100,14 @@ p {
 
 .container_imagem1 {
     float: right;
+}
+
+#container_imagem2 {
+    float: left;
+}
+
+.copyright {
+    position: sticky;
+    position: -webkit-sticky;
+    bottom: 0;
 }
