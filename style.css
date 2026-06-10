@@ -13,6 +13,7 @@ p {
     padding: 20px;
     border: 5px solid #000;
     margin: 10px;
+    display: inline-block;
 }
 
 #cabecalho {
@@ -21,6 +22,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
+    width: 500px;
 }
 
 #sobre-mim {
@@ -29,6 +31,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
+    width: 550px;
 }
 
 #Habilidades {
@@ -37,6 +40,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
+    width: 500px;
 }
 
 #projetos {
@@ -45,6 +49,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
+    width: 500px;
 }
 
 #contatos {
@@ -53,6 +58,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
+    width: 500px;
 }
 
 #contato {
@@ -62,6 +68,7 @@ p {
     margin: 10px;
     display: flex;
     flex-direction: column;
+    width: 500px;
 }
 
 #escola {
@@ -71,4 +78,11 @@ p {
     margin: 10px;
     display: flex;
     flex-direction: column;
+    width: 500px;
+}
+
+.container_imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
