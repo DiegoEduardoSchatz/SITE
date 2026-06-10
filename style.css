@@ -11,47 +11,64 @@ p {
     font-family: times new roman, serif;
     background-color: #3bf30d;
     padding: 20px;
-    border-radius: 5px;
+    border: 5px solid #000;
+    margin: 10px;
 }
 
 #cabecalho {
     background-color: #3bf30d;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: inline-block;
 }
 
 #sobre-mim {
     background-color: #3126c9;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: inline-block;
 }
 
 #Habilidades {
     background-color: #3bf30d;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: inline-block;
 }
 
 #projetos {
     background-color: #3126c9;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: inline-block;
 }
 
 #contatos {
     background-color: #04fdf1;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: inline-block;
 }
 
 #contato {
     background-color: #3bf30d;
-    padding: 20px;
-    border-radius: 5px;
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 #escola {
     background-color: #1404fd;
-    padding: 20px;
-    border-radius: 5px; 
+    padding: 10px;
+    border: 5px solid #000;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
