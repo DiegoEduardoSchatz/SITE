@@ -54,22 +54,13 @@ p {
     width: max-content;
 }
 
-#projetos {
-    background-color: #3126c9;
-    padding: 10px;
-    border: 5px solid #000;
-    margin: 10px;
-    display: inline-block;
-    width: 300px;
-}
-
-#contatos {
+#projetos_contato {
     background-color: #04fdf1;
     padding: 10px;
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: min-content;
+    width: 300px;
 }
 
 #contato {
