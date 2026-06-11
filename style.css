@@ -16,6 +16,8 @@ p {
     display: min-content;
 }
 
+
+
 #topo {
     background-color: #04fdf1;
     padding: 10px;
@@ -60,7 +62,7 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: 300px;
+    width: max-content;
 }
 
 #contato {
@@ -70,7 +72,7 @@ p {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: max-content;
 }
 
 #linguagens {
@@ -80,23 +82,15 @@ p {
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: auto;
+    width: max-content;
 }
 
-.container_imagem {
+.container_linguagem {
     display: flex;
-    justify-content: center;
-    align-items: center;
 }
-
-.container_imagem1 {
-    float: right;
+.container_corpo {
+    display: flex;
 }
-
-#container_imagem2 {
-    float: left;
-}
-
 .copyright {
     position: sticky;
     position: -webkit-sticky;
