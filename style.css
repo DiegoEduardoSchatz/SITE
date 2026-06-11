@@ -13,7 +13,7 @@ p {
     padding: 20px;
     border: 5px solid #000;
     margin: 10px;
-    display: min-content;
+    display: max-content;
 }
 
 #topo {
@@ -34,7 +34,8 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: min-content;
+    width: max-content;
+    flex-grow: 1;
 }
 
 #sobre-mim {
@@ -44,6 +45,7 @@ p {
     margin: 10px;
     display: inline-block;
     width: max-content;
+    flex-grow: 1;
 }
 
 #Habilidades {
@@ -53,6 +55,7 @@ p {
     margin: 10px;
     display: inline-block;
     width: max-content;
+    flex-grow: 1;
 }
 
 #projetos_contato {
@@ -61,7 +64,8 @@ p {
     border: 5px solid #000;
     margin: 10px;
     display: inline-block;
-    width: 300px;
+    width: 400px;
+    flex-grow: 1;
 }
 
 #contato {
@@ -72,6 +76,7 @@ p {
     display: flex;
     flex-direction: column;
     width: max-content;
+    flex-grow: 1;
 }
 
 #linguagens {
@@ -82,6 +87,7 @@ p {
     display: flex;
     flex-direction: column;
     width: max-content;
+    flex-grow: 1;
 }
 
 .container_imagem {
@@ -101,6 +107,7 @@ p {
     justify-content: space-evenly; 
     align-items: start;
     flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 .container_linguagem {
@@ -109,6 +116,7 @@ p {
     justify-content: space-evenly;
     align-items: stretch;
     flex-wrap: wrap;
+    align-content: space-evenly;
 }
 
 .copyright {
