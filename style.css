@@ -73,8 +73,8 @@ body {
 }
 
 .container_imagem {
-  display: flex;
-  justify-content: center; 
+    display: flex;
+    justify-content: center; 
 }
 .container_imagem1 {
     float: right;
@@ -106,4 +106,5 @@ footer {
     background-color: #3bf30d;
     padding: 10px;
     text-align: center;
+    width: 100%;
 }
