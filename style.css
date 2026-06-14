@@ -33,7 +33,7 @@ body {
     display: inline-block;
     width: min-content;
     flex-grow: 1;
-    text-align: left;
+    text-align: justify;
 }
 
 #Habilidades {
