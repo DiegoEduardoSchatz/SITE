@@ -13,8 +13,7 @@ body {
     top: 0;
     background-color: rgb(60, 255, 0);
     padding: 1px;
-    text-align: center;
-    width: auto;
+    text-align:center;
 }
 
 #cabecalho {
@@ -43,7 +42,7 @@ body {
     display: inline-block;
     width: max-content;
     flex-grow: 1;
-    text-align: justify;
+    text-align:justify;
 }
 
 #projetos_contato {
@@ -65,7 +64,7 @@ body {
 }
 
 #linguagens {
-    background-color: blue;
+    background-color: rgb(60, 255, 0);
     padding: 10px;
     margin: 10px;
     display: flex;
