@@ -1,9 +1,9 @@
 body {
     color: #0a0a0a;
-    font-size: 12px;
+    font-size: 15px;
     line-height: 1.5;
     font-family: calibri, sans-serif;
-    background-color: #e5f505;
+    background-color: yellow;
     text-align: justify;
 }
 
@@ -11,13 +11,14 @@ body {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background-color: #3bf30d;
-    padding: 5px;
+    background-color: rgb(60, 255, 0);
+    padding: 1px;
     text-align: center;
+    width: auto;
 }
 
 #cabecalho {
-    background-color: #3bf30d;
+    background-color: rgb(60, 255, 0);
     padding: 10px;
     margin: 10px;
     display: inline-block;
@@ -25,57 +26,57 @@ body {
     flex-grow: 1;
 }
 
-#sobre-mim {
-    background-color: #3126c9;
+#Alemao {
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     display: inline-block;
     width: min-content;
     flex-grow: 1;
+    text-align: justify;
 }
 
 #Habilidades {
-    background-color: #3bf30d;
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     display: inline-block;
-    width: 300px;
+    width: max-content;
     flex-grow: 1;
 }
 
 #projetos_contato {
-    background-color: #04fdf1;
+    background-color: rgb(60, 255, 0);
     padding: 10px;
     margin: 10px;
     display: inline-block;
-    width: 300px;
+    width: 250px;
     flex-grow: 1;
 }
 
 #contato {
-    background-color: #3bf30d;
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: max-content;
-    flex-grow: 0,5;
+    flex-grow: 1;
 }
 
 #linguagens {
-    background-color: #1404fd;
+    background-color: blue;
     padding: 10px;
     margin: 10px;
     display: flex;
     flex-direction: column;
-    width: max-content;
-    flex-grow: 0,5;
+    flex-grow: 1;
 }
 
 .container_imagem {
     display: flex;
     justify-content: center; 
 }
+
 .container_imagem1 {
     float: right;
     margin-right: 20px; 
@@ -84,8 +85,7 @@ body {
 .container_corpo {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; 
-    align-items: start;
+    justify-content: space-evenly;
     flex-wrap: wrap;
     align-content: space-evenly;
 }
@@ -94,7 +94,6 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: stretch;
     flex-wrap: wrap;
     align-content: space-evenly;
 }
@@ -103,8 +102,8 @@ footer {
     position: sticky;
     position: -webkit-sticky;
     bottom: 0;
-    background-color: #3bf30d;
-    padding: 10px;
+    background-color: rgb(60, 255, 0);
+    padding: 1px;
     text-align: center;
-    width: 100%;
+    width: auto;
 }
